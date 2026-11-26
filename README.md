@@ -30,7 +30,7 @@
 
 ## 2. Структура проекта
 
-![alt text](image-1.png)
+![alt text](images/image.png)
 
 Логика разделена по слоям: `menu.py` отвечает только за интерфейс и вызовы,
 `service.py` — за работу со списком задач, `storage.py` — за файл,
@@ -111,48 +111,48 @@ python main.py
 
 ```
 Ваш выбор: 1
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Ваш выбор: 1
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 
 ### Сценарий 2. Изменение статуса
 
 ```
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 Повторный выбор пункта 4 для той же задачи возвращает статус «в работе»,
 то есть переключение работает в обе стороны.
 
 ### Сценарий 3. Поиск и удаление по ID
 
-![](image-6.png)
+![](images/image-6.png)
 
-![](image-7.png)
+![](images/image-7.png)
 
-![](image-9.png)
+![](images/image-9.png)
 
 После удаления задача больше не находится по своему ID.
 
 ### Сценарий 4. Обработка ошибочного ввода
 
-![](image-10.png)
+![](images/image-10.png)
 
-![alt text](image-11.png)
-
-
-![alt text](image-13.png)
-![alt text](image-12.png)
+![alt text](images/image-11.png)
 
 
-![alt text](image-14.png)
+![alt text](images/image-13.png)
+![alt text](images/image-12.png)
 
-![0](image-15.png)
 
-![alt text](image-16.png)
+![alt text](images/image-14.png)
+
+![0](images/image-15.png)
+
+![alt text](images/image-16.png)
 
 Ни одна ошибка не привела к аварийному завершению: после каждой из них
 программа повторяла запрос или возвращала меню. Новая задача после удаления
@@ -164,7 +164,7 @@ python main.py
 `python main.py` программа сообщает о загруженных задачах и показывает их:
 
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 Названия, приоритеты и статусы сохранились, счётчик выполненных задач
 восстановлен верно.
